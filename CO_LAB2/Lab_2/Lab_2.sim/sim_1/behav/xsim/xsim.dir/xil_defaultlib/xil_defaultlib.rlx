@@ -1,0 +1,17 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sim_1/imports/CO_LAB2/testbench.v,1650041864,verilog,,,,TestBench,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/ALU.v,1650479959,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/ALU_Ctrl.v,,ALU,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/ALU_Ctrl.v,1651151294,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Adder.v,,ALU_Ctrl,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Adder.v,1650563219,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Decoder.v,,Adder,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Decoder.v,1651151322,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Instr_Memory.v,,Decoder,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Instr_Memory.v,1651482282,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/MUX_2to1.v,,Instr_Memory,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/MUX_2to1.v,1650565623,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/ProgramCounter.v,,MUX_2to1,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/ProgramCounter.v,1650479084,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Reg_File.v,,ProgramCounter,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Reg_File.v,1650479123,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Shift_Left_Two_32.v,,Reg_File,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Shift_Left_Two_32.v,1651147738,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Sign_Extend.v,,Shift_Left_Two_32,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Sign_Extend.v,1650999564,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Simple_Single_CPU.v,,Sign_Extend,,,,,,,,
+D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sources_1/imports/CO_LAB2/Simple_Single_CPU.v,1651001862,verilog,,D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sim_1/imports/CO_LAB2/testbench.v,,Simple_Single_CPU,,,,,,,,

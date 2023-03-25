@@ -1,0 +1,11 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v,1649103479,verilog,,D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/new/alu_btm.v,,alu,,,,,,,,
+D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v,1649103492,verilog,,D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v,,alu_top,,,,,,,,
+D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v,1649103514,verilog,,D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/half_adder.v,,full_adder,,,,,,,,
+D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/half_adder.v,1649103521,verilog,,D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v,,half_adder,,,,,,,,
+D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v,1649103494,verilog,,,,testbench,,,,,,,,
+D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/new/alu_btm.v,1649104656,verilog,,D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v,,alu_btm,,,,,,,,

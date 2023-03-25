@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/ALU_Ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Instr_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instr_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_2to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_2to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_3to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_3to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_4to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Reg_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Shift_Left_Two_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift_Left_Two_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Sign_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Simple_Single_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Simple_Single_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sim_1/imports/testcase/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

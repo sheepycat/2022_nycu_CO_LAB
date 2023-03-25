@@ -1,0 +1,261 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Apr  5 17:50:36 2022
+# Process ID: 10356
+# Current directory: D:/colab_2022/CO_LAB1/lab_1/lab_1.runs/synth_1
+# Command line: vivado.exe -log testbench.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source testbench.tcl
+# Log file: D:/colab_2022/CO_LAB1/lab_1/lab_1.runs/synth_1/testbench.vds
+# Journal file: D:/colab_2022/CO_LAB1/lab_1/lab_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/vivado/Vivado/2021.1/scripts/Vivado_init.tcl'
+source testbench.tcl -notrace
+Command: synth_design -top testbench -part xc7a12ticsg325-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2860
+WARNING: [Synth 8-1935] empty port in module declaration [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v:32]
+WARNING: [Synth 8-992] temp_sum is already implicitly declared earlier [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:38]
+WARNING: [Synth 8-992] temp_cout is already implicitly declared earlier [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:38]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'testbench' [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:23]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'src1.txt'; please make sure the file is added to project and has read permission, ignoring [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:74]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'src2.txt'; please make sure the file is added to project and has read permission, ignoring [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:75]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'op.txt'; please make sure the file is added to project and has read permission, ignoring [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:76]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'result.txt'; please make sure the file is added to project and has read permission, ignoring [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:77]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'zcv.txt'; please make sure the file is added to project and has read permission, ignoring [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:78]
+WARNING: [Synth 8-85] always block has no event control specified [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:84]
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu_top' [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:24]
+INFO: [Synth 8-6157] synthesizing module 'half_adder' [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/half_adder.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'half_adder' (1#1) [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/half_adder.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (2#1) [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:24]
+WARNING: [Synth 8-308] ignoring empty port [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'alu_top' (3#1) [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v:23]
+WARNING: [Synth 8-7023] instance 'A0' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:59]
+WARNING: [Synth 8-7023] instance 'A1' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:60]
+WARNING: [Synth 8-7023] instance 'A2' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:61]
+WARNING: [Synth 8-7023] instance 'A3' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:62]
+WARNING: [Synth 8-7023] instance 'A4' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:63]
+WARNING: [Synth 8-7023] instance 'A5' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:65]
+WARNING: [Synth 8-7023] instance 'A6' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:66]
+WARNING: [Synth 8-7023] instance 'A7' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:67]
+WARNING: [Synth 8-7023] instance 'A8' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:68]
+WARNING: [Synth 8-7023] instance 'A9' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:69]
+WARNING: [Synth 8-7023] instance 'A10' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:71]
+WARNING: [Synth 8-7023] instance 'A11' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:72]
+WARNING: [Synth 8-7023] instance 'A12' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:73]
+WARNING: [Synth 8-7023] instance 'A13' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:74]
+WARNING: [Synth 8-7023] instance 'A14' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:75]
+WARNING: [Synth 8-7023] instance 'A15' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:77]
+WARNING: [Synth 8-7023] instance 'A16' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:78]
+WARNING: [Synth 8-7023] instance 'A17' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:79]
+WARNING: [Synth 8-7023] instance 'A18' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:80]
+WARNING: [Synth 8-7023] instance 'A19' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:81]
+WARNING: [Synth 8-7023] instance 'A20' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:83]
+WARNING: [Synth 8-7023] instance 'A21' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:84]
+WARNING: [Synth 8-7023] instance 'A22' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:85]
+WARNING: [Synth 8-7023] instance 'A23' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:86]
+WARNING: [Synth 8-7023] instance 'A24' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:87]
+WARNING: [Synth 8-7023] instance 'A25' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:89]
+WARNING: [Synth 8-7023] instance 'A26' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:90]
+WARNING: [Synth 8-7023] instance 'A27' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:91]
+WARNING: [Synth 8-7023] instance 'A28' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:92]
+WARNING: [Synth 8-7023] instance 'A29' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:93]
+WARNING: [Synth 8-7023] instance 'A30' of module 'alu_top' has 10 connections declared, but only 9 given [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:95]
+INFO: [Synth 8-6157] synthesizing module 'alu_btm' [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/new/alu_btm.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu_btm' (4#1) [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/new/alu_btm.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (5#1) [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v:23]
+INFO: [Synth 8-251] *************************************************** [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:100]
+INFO: [Synth 8-251]  Congratulation! All data are correct!  [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:101]
+INFO: [Synth 8-251] *************************************************** [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:102]
+INFO: [Synth 8-251] *************************************************** [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:130]
+INFO: [Synth 8-251]  AND error!  [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:132]
+INFO: [Synth 8-251]  OR error!  [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:133]
+INFO: [Synth 8-251]  ADD error!  [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:134]
+INFO: [Synth 8-251]  SUB error!  [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:135]
+INFO: [Synth 8-251]  SLT error!  [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:136]
+INFO: [Synth 8-251]  NOR error!  [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:137]
+INFO: [Synth 8-251]  No.x error! [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:141]
+INFO: [Synth 8-251]  Currect result: xxxxxxxx     Currect ZCV: 3'bxxx [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:142]
+INFO: [Synth 8-251]  Your result: xxxxxxxx     Your ZCV: 3'bxxx
+ [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:143]
+INFO: [Synth 8-251] *************************************************** [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:144]
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'testbench' (6#1) [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 64    
++---Registers : 
+	               32 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input    1 Bit        Muxes := 65    
+	   4 Input    1 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1145.098 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 5 critical warnings and 36 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1145.098 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1145.098 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1145.098 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1145.098 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 4b9f2ba5
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 36 Warnings, 5 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 1145.098 ; gain = 0.000
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/colab_2022/CO_LAB1/lab_1/lab_1.runs/synth_1/testbench.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file testbench_utilization_synth.rpt -pb testbench_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  5 17:51:13 2022...

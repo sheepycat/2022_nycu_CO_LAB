@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Jun  5 20:35:27 2022
+# Process ID: 14268
+# Current directory: D:/colab_2022/CO_LAB4/lab_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15716 D:\colab_2022\CO_LAB4\lab_4\lab_4.xpr
+# Log file: D:/colab_2022/CO_LAB4/lab_4/vivado.log
+# Journal file: D:/colab_2022/CO_LAB4/lab_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/colab_2022/CO_LAB4/lab_4/lab_4.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TestBench.tcl
+close_sim
+launch_simulation
+source TestBench.tcl
+close_sim

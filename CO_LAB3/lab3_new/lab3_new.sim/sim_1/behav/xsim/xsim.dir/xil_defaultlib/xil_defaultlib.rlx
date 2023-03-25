@@ -1,0 +1,20 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sim_1/imports/testcase/testbench.v,1652251450,verilog,,,,testbench,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/ALU.v,1653069313,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/ALU_Ctrl.v,,ALU,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/ALU_Ctrl.v,1653315202,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Adder.v,,ALU_Ctrl,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Adder.v,1653069264,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Data_Memory.v,,Adder,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Data_Memory.v,1652251448,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Decoder.v,,Data_Memory,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Decoder.v,1653315595,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Instr_Memory.v,,Decoder,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Instr_Memory.v,1653318601,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_2to1.v,,Instr_Memory,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_2to1.v,1653069292,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_3to1.v,,MUX_2to1,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_3to1.v,1653239506,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_4to1.v,,MUX_3to1,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_4to1.v,1653300403,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/ProgramCounter.v,,MUX_4to1,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/ProgramCounter.v,1652251448,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Reg_File.v,,ProgramCounter,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Reg_File.v,1652251448,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Shift_Left_Two_32.v,,Reg_File,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Shift_Left_Two_32.v,1653069326,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Sign_Extend.v,,Shift_Left_Two_32,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Sign_Extend.v,1653069359,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Simple_Single_CPU.v,,Sign_Extend,,,,,,,,
+D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sources_1/imports/CO_LAB3_new/Simple_Single_CPU.v,1653312563,verilog,,D:/colab_2022/CO_LAB3_new/lab3_new/lab3_new.srcs/sim_1/imports/testcase/testbench.v,,Simple_Single_CPU,,,,,,,,

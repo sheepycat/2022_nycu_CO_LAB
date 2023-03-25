@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/ALU.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/ALU_Ctrl.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/Adder.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/Data_Memory.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/Decoder.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/Instruction_Memory.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/MUX_2to1.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/Pipe_CPU_1.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/Pipe_Reg.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/ProgramCounter.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/Reg_File.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/Shift_Left_Two_32.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/Sign_Extend.v" \
+"../../../../lab_4.srcs/sources_1/imports/lab4_code/TestBench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

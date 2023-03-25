@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_1.srcs/sources_1/imports/CO_LAB1/alu.v" \
+"../../../../lab_1.srcs/sources_1/new/alu_btm.v" \
+"../../../../lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v" \
+"../../../../lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v" \
+"../../../../lab_1.srcs/sources_1/imports/CO_LAB1/half_adder.v" \
+"../../../../lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/ALU.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/ALU_Ctrl.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/Adder.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/Data_Memory.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/Decoder.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/Instr_Memory.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_2to1.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_3to1.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/MUX_4to1.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/ProgramCounter.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/Reg_File.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/Shift_Left_Two_32.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/Sign_Extend.v" \
+"../../../../lab3_new.srcs/sources_1/imports/CO_LAB3_new/Simple_Single_CPU.v" \
+"../../../../lab3_new.srcs/sim_1/imports/testcase/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

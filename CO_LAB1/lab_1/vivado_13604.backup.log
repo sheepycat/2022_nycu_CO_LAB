@@ -1,0 +1,420 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Apr  5 01:50:13 2022
+# Process ID: 13604
+# Current directory: D:/colab_2022/CO_LAB1/lab_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9244 D:\colab_2022\CO_LAB1\lab_1\lab_1.xpr
+# Log file: D:/colab_2022/CO_LAB1/lab_1/vivado.log
+# Journal file: D:/colab_2022/CO_LAB1/lab_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/vivado/Vivado/2021.1/scripts/Vivado_init.tcl'
+start_gui
+open_project D:/colab_2022/CO_LAB1/lab_1/lab_1.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/colab_2022/CO_LAB1/lab_1/lab_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 1117.770 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {D:/colab_2022/CO_LAB1/testcase/src2.txt D:/colab_2022/CO_LAB1/testcase/result.txt D:/colab_2022/CO_LAB1/testcase/src1.txt {D:/colab_2022/CO_LAB1/testcase/test case.txt} D:/colab_2022/CO_LAB1/testcase/op.txt D:/colab_2022/CO_LAB1/testcase/zcv.txt}
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/src2.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/result.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/src1.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/test case.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/op.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/zcv.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/new/alu_btm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_btm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_top
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2458] undeclared symbol temp_sum, assumed default net type wire [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:35]
+INFO: [VRFC 10-2458] undeclared symbol temp_cout, assumed default net type wire [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:36]
+WARNING: [VRFC 10-2938] 'temp_sum' is already implicitly declared on line 35 [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:38]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+"xelab -wto 93db4029c3104a689079edd933a1efbc --incr --debug typical --relax --mt 32 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 93db4029c3104a689079edd933a1efbc --incr --debug typical --relax --mt 32 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 32 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.alu_top
+Compiling module xil_defaultlib.alu_btm
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+
+****** Webtalk v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Apr  5 04:19:53 2022. For additional details about this file, please refer to the WebTalk help file at D:/vivado/Vivado/2021.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr  5 04:19:53 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1117.770 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+***************************************************
+ ADD error! 
+ No. 3 error!
+ Currect result: 00000000     Currect ZCV: 110
+ Your result: 00000000     Your ZCV: 111
+
+***************************************************
+***************************************************
+ SUB error! 
+ No. 4 error!
+ Currect result: 5016e53e     Currect ZCV: 010
+ Your result: 5016e53e     Your ZCV: 011
+
+***************************************************
+$stop called at time : 175 ns : File "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v" Line 104
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1117.770 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1117.770 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/src2.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/result.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/src1.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/test case.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/op.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/zcv.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/new/alu_btm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_btm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_top
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2458] undeclared symbol temp_sum, assumed default net type wire [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:35]
+INFO: [VRFC 10-2458] undeclared symbol temp_cout, assumed default net type wire [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:36]
+WARNING: [VRFC 10-2938] 'temp_sum' is already implicitly declared on line 35 [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:38]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+"xelab -wto 93db4029c3104a689079edd933a1efbc --incr --debug typical --relax --mt 32 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 93db4029c3104a689079edd933a1efbc --incr --debug typical --relax --mt 32 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 32 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.alu_top
+Compiling module xil_defaultlib.alu_btm
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+***************************************************
+ ADD error! 
+ No. 3 error!
+ Currect result: 00000000     Currect ZCV: 110
+ Your result: 00000000     Your ZCV: 111
+
+***************************************************
+***************************************************
+ SUB error! 
+ No. 4 error!
+ Currect result: 5016e53e     Currect ZCV: 010
+ Your result: 5016e53e     Your ZCV: 011
+
+***************************************************
+***************************************************
+ SLT error! 
+ No. 5 error!
+ Currect result: 00000001     Currect ZCV: 000
+ Your result: 00000001     Your ZCV: 001
+
+***************************************************
+$stop called at time : 175 ns : File "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v" Line 104
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1117.770 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/src2.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/result.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/src1.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/test case.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/op.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/zcv.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/new/alu_btm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_btm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_top
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2458] undeclared symbol temp_sum, assumed default net type wire [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:35]
+INFO: [VRFC 10-2458] undeclared symbol temp_cout, assumed default net type wire [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:36]
+WARNING: [VRFC 10-2938] 'temp_sum' is already implicitly declared on line 35 [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:38]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+"xelab -wto 93db4029c3104a689079edd933a1efbc --incr --debug typical --relax --mt 32 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 93db4029c3104a689079edd933a1efbc --incr --debug typical --relax --mt 32 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 32 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.alu_top
+Compiling module xil_defaultlib.alu_btm
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+***************************************************
+ ADD error! 
+ No. 3 error!
+ Currect result: 00000000     Currect ZCV: 110
+ Your result: 00000000     Your ZCV: 111
+
+***************************************************
+***************************************************
+ SUB error! 
+ No. 4 error!
+ Currect result: 5016e53e     Currect ZCV: 010
+ Your result: 5016e53e     Your ZCV: 011
+
+***************************************************
+***************************************************
+ SLT error! 
+ No. 5 error!
+ Currect result: 00000001     Currect ZCV: 000
+ Your result: 00000001     Your ZCV: 001
+
+***************************************************
+$stop called at time : 175 ns : File "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v" Line 104
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1117.770 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/src2.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/result.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/src1.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/test case.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/op.txt'
+INFO: [SIM-utils-43] Exported 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim/zcv.txt'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/new/alu_btm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_btm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_top
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/alu_top.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2458] undeclared symbol temp_sum, assumed default net type wire [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:35]
+INFO: [VRFC 10-2458] undeclared symbol temp_cout, assumed default net type wire [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:36]
+WARNING: [VRFC 10-2938] 'temp_sum' is already implicitly declared on line 35 [D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/full_adder.v:38]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/half_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+"xelab -wto 93db4029c3104a689079edd933a1efbc --incr --debug typical --relax --mt 32 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 93db4029c3104a689079edd933a1efbc --incr --debug typical --relax --mt 32 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 32 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.half_adder
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.alu_top
+Compiling module xil_defaultlib.alu_btm
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/colab_2022/CO_LAB1/lab_1/lab_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+***************************************************
+ Congratulation! All data are correct! 
+***************************************************
+$stop called at time : 175 ns : File "D:/colab_2022/CO_LAB1/lab_1/lab_1.srcs/sources_1/imports/CO_LAB1/testbench.v" Line 104
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1117.770 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  5 14:25:42 2022...

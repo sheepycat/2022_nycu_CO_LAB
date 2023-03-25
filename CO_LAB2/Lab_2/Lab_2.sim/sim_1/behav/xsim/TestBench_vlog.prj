@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/ALU.v" \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/ALU_Ctrl.v" \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/Adder.v" \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/Decoder.v" \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/Instr_Memory.v" \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/MUX_2to1.v" \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/ProgramCounter.v" \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/Reg_File.v" \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/Shift_Left_Two_32.v" \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/Sign_Extend.v" \
+"../../../../Lab_2.srcs/sources_1/imports/CO_LAB2/Simple_Single_CPU.v" \
+"../../../../Lab_2.srcs/sim_1/imports/CO_LAB2/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

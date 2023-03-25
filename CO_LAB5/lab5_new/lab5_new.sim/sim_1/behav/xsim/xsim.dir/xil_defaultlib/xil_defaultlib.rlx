@@ -1,0 +1,23 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sim_1/imports/CO_LAB5/testbench.v,1655986897,verilog,,,,TestBench,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/ALU.v,1654358841,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/ALU_Ctrl.v,,ALU,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/ALU_Ctrl.v,1654358733,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Adder.v,,ALU_Control,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Adder.v,1653319473,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Data_Memory.v,,Adder,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Decoder.v,1655847569,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/new/Forwarding.v,,Decoder,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/MUX_2to1.v,1653319510,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/CO_LAB3_new/MUX_3to1.v,,MUX_2to1,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Pipe_CPU_1.v,1655989264,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Pipe_Reg.v,,Pipe_CPU_1,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Shift_Left_Two_32.v,1653319536,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Sign_Extend.v,,Shift_Left_Two_32,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Sign_Extend.v,1653319542,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sim_1/imports/CO_LAB5/testbench.v,,Sign_Extend,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/CO_LAB3_new/MUX_3to1.v,1653239506,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/CO_LAB3_new/MUX_4to1.v,,MUX_3to1,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/CO_LAB3_new/MUX_4to1.v,1653300403,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Pipe_CPU_1.v,,MUX_4to1,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Data_Memory.v,1653278362,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Decoder.v,,Data_Memory,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Instruction_Memory.v,1653278362,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/MUX_2to1.v,,Instruction_Memory,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Pipe_Reg.v,1655850668,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/ProgramCounter.v,,Pipe_Reg,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/ProgramCounter.v,1655850285,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Reg_File.v,,ProgramCounter,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Reg_File.v,1653278362,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Shift_Left_Two_32.v,,Reg_File,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/new/Forwarding.v,1655851903,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/new/Hazard_detection.v,,Forwarding,,,,,,,,
+D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/new/Hazard_detection.v,1655845327,verilog,,D:/colab_2022/CO_LAB5/lab5_new/lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Instruction_Memory.v,,Hazard_detection,,,,,,,,

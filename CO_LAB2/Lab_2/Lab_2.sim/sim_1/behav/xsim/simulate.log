@@ -1,0 +1,16 @@
+Time resolution is 1 ps
+          2
+r0=          0
+r1=         10
+r2=          4
+r3=          0
+r4=          0
+r5=          6
+r6=          0
+r7=          0
+r8=          0
+r9=          0
+r10=          0
+r11=          0
+r12=          0
+$stop called at time : 260 ns : File "D:/colab_2022/CO_LAB2/Lab_2/Lab_2.srcs/sim_1/imports/CO_LAB2/testbench.v" Line 40

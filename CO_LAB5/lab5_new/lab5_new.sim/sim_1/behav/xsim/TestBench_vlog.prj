@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/ALU.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/ALU_Ctrl.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Adder.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Data_Memory.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Decoder.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/new/Forwarding.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/new/Hazard_detection.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Instruction_Memory.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/MUX_2to1.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/CO_LAB3_new/MUX_3to1.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/CO_LAB3_new/MUX_4to1.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Pipe_CPU_1.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Pipe_Reg.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/ProgramCounter.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/lab4_code/Reg_File.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Shift_Left_Two_32.v" \
+"../../../../lab5_new.srcs/sources_1/imports/sources_1/imports/109550134/Sign_Extend.v" \
+"../../../../lab5_new.srcs/sim_1/imports/CO_LAB5/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
